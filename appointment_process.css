@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zz{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    width: 700px;
+    border-radius: 10px;
+}
+.printButton {
+    text-align: right;
+}
+.print-button{
+    background-color: #5b79cb;
+    color: white;
+    font-size: 16px;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.reschedule{
+    display: flex;
+    flex-direction: column;
+}
+.appointmentCard{
+    margin-bottom: 20px;
+}
+.cardImage img{
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.actionButtons{
+    text-align:center;
+    margin-top:20px;
+    margin-top: 40px;
+}
+.cancelButton {
+    background-color: #f44336;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.appointmentCard h2{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.appointment-table tr:nth-child(even) {
+    background-color: #fff1f1;
+}
+
+
+
